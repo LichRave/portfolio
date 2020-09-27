@@ -1,1 +1,40 @@
-font-family: 'Poppins', sans-serif;
+body, html{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+.content {
+	width: 1000px;
+}
+.wrap-flex{
+	display: flex;
+	justify-content: center;
+}
+section, header{
+	padding: 30px;
+	display: flex;
+}
+.header-menu div {
+	display: flex;
+	justify-content: flex-end;
+}
+header {
+    justify-content: space-between;align-items: center;
+}
+.Opis {
+	flex-direction: column;
+}
+.Text {
+	display: flex;
+}
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+/* section:nth-child(even) { */
+	/* background-color: red;	 */
+/* } */
