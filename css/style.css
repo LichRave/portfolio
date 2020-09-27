@@ -12,7 +12,6 @@ body, html{
 	justify-content: center;
 }
 section, header{
-	width: 100%;
 	padding: 30px;
 	display: flex;
 }
@@ -66,6 +65,20 @@ iframe {
 
 .contact-content input, .contact-content textarea {
 	width: 60%;
+}
+
+.title {
+	margin: 10px 0 20px 0;
+}
+
+
+nav a {
+	padding-left: 35px;
+	text-decoration: none;
+}
+
+footer p {
+	margin: 30px 0 ;
 }
 
 /* section:nth-child(even) { */
