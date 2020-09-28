@@ -1,9 +1,11 @@
 body, html{
-	font-family: 'Poppins', sans-serif !important; 
-	font-size: 14px  !important;
+	width:100%;
+	font-family: 'Poppins', sans-serif ; 
+	font-size: 14px ;
 	margin: 0;
 	padding: 0;
 }
+
 .content {
 	width: 1000px;
 }
@@ -27,7 +29,7 @@ header {
 	flex-direction: column;
 }
 .Opis p {
-padding-left: 30px;
+	padding-left: 30px;
 }
 .Text {
 	display: flex;
@@ -39,11 +41,10 @@ footer {
 
 .contact-content {
 	display: flex;
-ju
 }
 
 .w-100 {
-	width: 100% !important;
+	width: 100% ;
 }
 
 h1  {
@@ -80,6 +81,31 @@ nav a {
 footer p {
 	margin: 30px 0 ;
 }
+
+#contact, #details {
+	background: #f5d5ba;
+}
+
+#contact a {
+	text-decoration:none;
+    color: #ff7070;
+}
+
+#contact a:hover {color: #f72828;}
+
+#btn {
+    width: 150px;
+    background: #ff7070;
+    color: #fff;
+    border:0;
+    padding: 10px 10px;
+	border-radius: 3px;
+}
+#btn:hover {
+    cursor:pointer;
+    background: #f72828;
+}
+
 
 /* section:nth-child(even) { */
 	/* background-color: red;	 */

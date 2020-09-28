@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='pl'>
-	<head>
+	<head>           
 		<title>Strona przykladowa</title>
 		<meta charset='utf-8'>
 		<meta name='robots' content='all'>
@@ -32,11 +32,11 @@
 								<i class="fa fa-address-card-o" aria-hidden="true"></i>
 								Opis
 								</a>
-								<a href="#home" title="Otworz galerie">
+								<a href="#Photo" title="Otworz galerie">
 								<i class="fa fa-film" aria-hidden="true"></i>
 								Galeria
 								</a>
-								<a href="#home" title="Skontaktuj sie z nami">
+								<a href="#contact" title="Skontaktuj sie z nami">
 								<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
 								Kontakt
 								</a>
@@ -57,32 +57,51 @@
 						</div>
 					</div>
 				</section>
-				<section class="galeria">
+			<section id="Photo" class="galeria">
 					<div class="container2">
 <div class="title">
 						<h2>Galeria</h2>
 </div>
-						<div class=Pictures>
-							<a href="https://loremflickr.com/2300/1700" title="Picture1" target="_blank">
-							<img src="https://loremflickr.com/230/170" alt="Picture1"> </a>
-							<a href="https://www.fillmurray.com/2300/1700" title="Picture2" target="_blank">
-							<img src="https://www.fillmurray.com/230/170" alt="Picture2"> </a>
-							<a href="http://placeimg.com/2300/1700/any" title="Picture3" target="_blank">
-							<img src="http://placeimg.com/230/170/any" alt="Picture3"> </a>
-							<a href="https://placekitten.com/2300/1700" title="Picture4" target="_blank">
-							<img src="https://placekitten.com/230/170" alt="Picture4"> </a>
-							<a href="https://picsum.photos/2300/1700" title="Picture5" target="_blank">
-							<img src="https://picsum.photos/230/170" alt="Picture5"> </a>
-							<a href="https://baconmockup.com/2300/1700" title="Picture6" target="_blank">
-							<img src="https://baconmockup.com/230/170" alt="Picture6"> </a>
-							<a href="https://placebeard.it/2300x1700" title="Picture7" target="_blank">
-							<img src="https://placebeard.it/230x170" alt="Picture7"> </a>
-							<a href="https://www.placecage.com/2300/1700" title="Picture8" target="_blank">
-							<img src="https://www.placecage.com/230/170" alt="Picture8"> </a>
+						<div class=pictures>
+							<!-- <div class="responsive"> -->
+								<a href="https://loremflickr.com/2300/1700" title="Picture1" target="_blank">
+								<img src="https://loremflickr.com/230/170" alt="Picture1"> 
+								</a>
+							<!-- </div>	-->
+							<!-- <div class="responsive"> -->
+								<a href="https://www.fillmurray.com/2300/1700" title="Picture2" target="_blank">
+								<img src="https://www.fillmurray.com/230/170" alt="Picture2"> </a>
+							<!-- </div>	-->
+							<!-- <div class="responsive"> -->
+								<a href="http://placeimg.com/2300/1700/any" title="Picture3" target="_blank">
+								<img src="http://placeimg.com/230/170/any" alt="Picture3"> </a>
+							<!-- </div>	 -->
+							<!-- <div class="responsive"> -->
+								<a href="https://placekitten.com/2300/1700" title="Picture4" target="_blank">
+								<img src="https://placekitten.com/230/170" alt="Picture4"> </a>
+							<!-- </div>	 -->
+							<!-- <div class="responsive"> -->
+								<a href="https://picsum.photos/2300/1700" title="Picture5" target="_blank">
+								<img src="https://picsum.photos/230/170" alt="Picture5"> 
+								</a>
+							<!-- </div> -->	
+							<!-- <div class="responsive"> -->
+								<a href="https://baconmockup.com/2300/1700" title="Picture6" target="_blank">
+								<img src="https://baconmockup.com/230/170" alt="Picture6"> </a>
+							<!-- </div>	 -->
+							<!-- <div class="responsive"> -->
+								<a href="https://placebeard.it/2300x1700" title="Picture7" target="_blank">
+								<img src="https://placebeard.it/230x170" alt="Picture7"> 
+								</a>
+							<!-- </div>	 -->
+							<!-- <div class="responsive"> -->
+								<a href="https://www.placecage.com/2300/1700" title="Picture8" target="_blank">
+								<img src="https://www.placecage.com/230/170" alt="Picture8"> </a>
+							<!-- </div> -->
 						</div>
 					</div>
-				</section>
-				<section>
+			</section>
+				<section id="contact">
 					<div class="w-100">
 						<div class="title">
 							<h2>Kontakt</h2>
@@ -105,7 +124,7 @@
 									<input type="number" name="telefon">					 <br>
 									<label id="tresc">Napisz wiadomość</label>				 <br>
 									<textarea name="tresc"></textarea>						 <br>
-									<button type="submit">Wyslij!</button>
+									<input id="btn" type="submit" value="Wyślij">
 								</form>
 							</div>
 						</div>
